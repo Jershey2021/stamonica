@@ -1,0 +1,134 @@
+body{
+    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.records{
+    position: relative;
+    justify-content: center;
+    font-size: 35px;
+    top: 5px;
+}
+.content{
+    position: absolute;
+    width: 80vw;
+    height: 100vh;
+    left: 288px;
+    top: 0px;
+    background-color: aliceblue;
+}
+
+
+.summary {
+    position: absolute;
+    top: 100px; 
+    left: 50%;
+    transform: translateX(-50%); 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+    width: 85%; 
+    max-width: 1200px;
+    padding: 16px;
+}
+
+.summary > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%; /* Full width of the grid item */
+    height: 100%; /* Full height of the grid item */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-weight: bold;
+    margin-bottom: 8px; /* Adjust spacing if needed */
+}
+
+.number {
+    font-size: 1.5em; /* Adjust size as needed */
+}
+
+
+
+
+.make{
+    position: absolute;
+    font-size: 30px;
+    width: 500px;
+    top: 470px;
+    left: 311px;
+}
+
+  
+  .summary div:hover {
+    transform: scale(1.05);
+  }
+  
+  .summary div:active {
+      transform: scale(0.95) rotateZ(1.7deg);
+    }
+
+
+    .certificate {
+        position: absolute;
+        left: 228px;
+        top: 550px;
+        width: 600px;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        column-gap: 20px; 
+        
+      }
+      
+      .certified {
+        background-color: #66CDAA; 
+        box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22); 
+        border-radius: 17px; 
+        cursor: pointer; 
+        transition: all 0.5s; 
+        user-select: none; 
+        font-weight: bolder; 
+        color: black; 
+        text-align: center;
+        flex: 1; 
+        padding: 40px 20px; 
+        border: 1px solid black;
+      }
+      
+      .certified:hover {
+        transform: scale(1.05); 
+      }
+      
+      .certified:active {
+        transform: scale(0.95) rotateZ(1.7deg);
+      }
+      
+      .clearance, .residency {
+        position: relative; 
+      }
+      
+      
+
+
+
+
+
+
+
+
+
+

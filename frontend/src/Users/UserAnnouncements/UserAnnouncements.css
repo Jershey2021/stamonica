@@ -1,0 +1,258 @@
+#userAnnouncements {
+    overflow: hidden;
+    background-color: aliceblue;
+    width: 100vw;
+    height: 100vh;
+    position: relative; 
+}
+
+.userAnnouncementsHelloUser {
+    position: relative;
+    top: 70px;
+    left: 40px;
+    font-size: 40px;
+}
+
+/* Header */
+
+.userAnnouncementsHeader {
+    height: 70px;
+    background-color: #f7f7f759;
+}
+
+.userAnnouncements nav a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.userAnnouncementsHeaderNavBar {
+    display: flex;
+    gap: 80px;
+    font-size: 23px;
+    font-weight: 400;
+    top: -5px;
+}
+
+.userAnnouncementsHeaderTitleButton {
+    --border-right: 8px;
+    --text-stroke-color: rgb(7, 7, 7);
+    --animation-color: #1e645d;
+    --fs-size: 2em;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: var(--fs-size);
+    font-family: "Arial";
+    position: relative;
+    text-transform: uppercase;
+    color: black;
+    -webkit-text-fill-color: 1px var(--text-fill-color);
+    font-weight: 600;
+    background: transparent;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+}
+
+.userAnnouncementsHeaderHoverText {
+    position: absolute;
+    box-sizing: border-box;
+    content: attr(data-text);
+    color: var(--animation-color);
+    width: 0%;
+    inset: 0;
+    border-right: var(--border-right) solid var(--animation-color);
+    overflow: hidden;
+    transition: 0.5s;
+    -webkit-text-stroke: 1px var(--animation-color);
+}
+
+.userAnnouncementsHeaderTitleButton:hover .userAnnouncementsHeaderHoverText {
+    width: 100%;
+    filter: drop-shadow(0 0 23px var(--animation-color));
+}
+
+.userAnnouncementLatestNews{
+    position: absolute;
+    top: 170px;
+    left: 50px;
+    width: 600px;
+    height: 480px;
+}
+
+.userNews h1{
+    position: relative;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    background: black;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    top: 0px;
+}
+
+.userAnnouncementTitle{
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    background: black;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    top: 5px;
+    text-transform: uppercase;
+    
+}
+
+.userAnnouncement{
+    position:relative;
+    font-size: 18px;
+    word-spacing: 1px;
+    top: 20px;
+    left: 20px;
+    max-width: 556px;
+    max-height: 335px;
+    text-align: justify;
+    overflow-y: scroll;
+    padding-right: 40px;
+}
+
+.userAnnouncement::-webkit-scrollbar {
+    width: 8px; }
+
+.userAnnouncement::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 10px; }
+
+.userAnnouncement::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px; 
+}
+
+.userAnnouncement::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+.userAnnouncement {
+    scrollbar-width: thin; 
+    scrollbar-color: #888 #f1f1f1; 
+}
+
+.userAnnouncementEvent h1{
+    position: fixed;
+    font-size: 25px;
+    font-weight: 750;
+    background: black;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    top: 390px;
+    left: 870px;
+}
+
+.userAnnouncementDates {
+    display: flex;
+    gap: 15px;
+    margin-left: 20px;
+    margin-top: 5px;
+    max-width: 100%; 
+    padding: 10px 0; 
+}
+
+.userAnnouncementDateOne {
+    flex: 0 0 auto; 
+    width: 165px; 
+    height: 170px;
+    background: linear-gradient(to left, #f1f5f9, #f8fafc); 
+    color: #374151; 
+    border: 1px solid #d1d5db; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    position: relative;
+    scroll-snap-align: start; 
+    top: 30px;
+}
+
+.userAnnouncementDateOne {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.userAnnouncementDateOne p {
+    color: white;
+    font-size: 1.5rem;
+    top: 45px;
+    left: 20px;
+}
+
+.userAnnouncementDateOne h1 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    position: relative;
+    top: 100px;
+    left: -60px;
+}
+
+.userAnnouncementDateOne .userAnnouncementMonth{
+    position: relative;
+    top: 45px;
+    left: -85px;
+}
+
+.userAnnouncementDateOne .text-sm{
+    position: relative;
+    color: #1c1c1f;
+    font-size: 18px;
+    max-width: 110px;
+    max-height: 100px;
+    left: 10px;
+    top: 0px;
+}
+
+.userAnnouncementUpcomingEvents{
+    position: absolute;
+    top: 225px;
+    left: 655px;
+    width: 550px;
+    height: 255px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.userAnnouncementUpcomingEvents::-webkit-scrollbar {
+    width: 8px; }
+
+.userAnnouncementUpcomingEvents::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 10px; }
+
+.userAnnouncementUpcomingEvents::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px; 
+}
+
+.userAnnouncementUpcomingEvents::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+.userAnnouncementUpcomingEvents {
+    scrollbar-width: thin; 
+    scrollbar-color: #888 #f1f1f1; 
+}
+
+.userAnnouncementCalendar{
+    position: absolute;
+    top: -60px;
+    left: 650px;
+    width: 570px;
+    height: 300px;
+    max-width: 570px;
+    max-height: 300px;
+}

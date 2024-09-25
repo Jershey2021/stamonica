@@ -1,0 +1,713 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    overflow: hidden;
+    background-color: aliceblue;
+
+}
+
+.half-register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(#1feec1 19%, #109b94 120%);
+    width: 50vw;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    overflow: hidden;
+    left: 0px;
+}
+
+.logo-register{
+    position: relative;
+    top: 70px;
+    width: 650px;
+    height: 400px;
+    left: -20px;
+}
+
+.sta-register{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    top: 50px;
+    color: #000000;
+
+}
+
+.monica-register{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    top: 50px;
+    color: #000000;
+
+    
+}
+
+.create-account{
+    width: 430px;
+    height: 465px;
+    position: relative;
+    top: 75px;
+    left: 335px;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    border: 3px solid rgb(65, 65, 63);
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+.create{
+    position: relative;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    background: linear-gradient(#1feec1 19%, #109b94 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    top: -30px;
+    text-transform: uppercase;
+}
+
+.create-account-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.create-account-form .create-input-group{
+    position: relative;
+    top: -20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.create-account-form .create-input-group input{
+    margin-top: 12px;
+    padding: 10px;
+    background: transparent;
+    border: 2px solid rgb(31, 30, 30);
+    border-radius: 6px;
+}
+
+
+.create-account-form .create-input-group button{
+    position: relative;
+    margin-top: 20px;
+    top: 0px;
+    left: 55px;
+    width: 65%;
+    height: 45px;
+    font-size: 21px;
+    font-weight: 600;
+    color: white;
+    background-color: #1eb99a;
+    border: 1px solid rgb(34, 34, 34);
+    border-radius: 8px;
+    cursor: pointer;
+}
+.create-account-form .create-input-group button:hover{
+    background-color: #1a7e6a;
+
+}
+
+
+.register-login{
+    position: relative;
+    top: 30px;
+    left: 72px;
+    font-size: 18px;
+}
+
+.register-login-btn{
+    position: relative;
+    top: 15px;
+    left: 43px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: #1eb99a;
+    border: 1px solid rgb(34, 34, 34);
+    border-radius: 6px;
+    padding: 8px 25px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.register-login-btn:hover{
+    background-color: #1a7e6a;
+
+}
+
+@media(max-width:1027px) and (max-height:597px){
+
+
+.half-register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(#1feec1 19%, #109b94 120%);
+    width: 50vw;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    overflow: hidden;
+    left: 0px;
+}
+
+.logo-register{
+    position: relative;
+    top: 70px;
+    width: 650px;
+    height: 300px;
+    left: -20px;
+}
+
+.sta-register{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    top: 60px;
+}
+
+.monica-register{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    top: 60px;
+    
+}
+
+.create-account{
+    width: 430px;
+    height: 465px;
+    position: relative;
+    top: 30px;
+    left: 270px;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    border: 3px solid rgb(65, 65, 63);
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+.create{
+    position: relative;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    background: linear-gradient(#1feec1 19%, #109b94 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    top: -30px;
+    text-transform: uppercase;
+}
+
+.create-account-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.create-account-form .create-input-group{
+    position: relative;
+    top: -20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.create-account-form .create-input-group input{
+    margin-top: 12px;
+    padding: 10px;
+    background: transparent;
+    border: 2px solid rgb(31, 30, 30);
+    border-radius: 6px;
+}
+
+
+.create-account-form .create-input-group button{
+    position: relative;
+    margin-top: 20px;
+    top: 0px;
+    left: 55px;
+    width: 65%;
+    height: 45px;
+    font-size: 21px;
+    font-weight: 600;
+    color: white;
+    background-color: #1eb99a;
+    border: 1px solid rgb(34, 34, 34);
+    border-radius: 8px;
+    cursor: pointer;
+}
+.create-account-form .create-input-group button:hover{
+    background-color: #1a7e6a;
+
+}
+
+
+.register-login{
+    position: relative;
+    top: 30px;
+    left: 72px;
+    font-size: 18px;
+}
+
+.register-login-btn{
+    position: relative;
+    top: 15px;
+    left: 43px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: #1eb99a;
+    border: 1px solid rgb(34, 34, 34);
+    border-radius: 6px;
+    padding: 8px 25px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.register-login-btn:hover{
+    background-color: #1a7e6a;
+
+}
+
+
+}
+@media(max-width:750px) and (max-height:597px){
+
+
+    .half-register{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: linear-gradient(#1feec1 19%, #109b94 120%);
+        width: 50vw;
+        height: 105vh;
+        position: absolute;
+        top: 0px;
+        overflow: hidden;
+        left: 0px;
+    }
+    
+    .logo-register{
+        position: relative;
+        top: 80px;
+        width: 650px;
+        height: 300px;
+        left: 5px;
+    }
+
+.sta-register{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    top: 80px;
+    left: 0px;
+}
+
+.monica-register{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    top: 80px;
+    left: 0px;
+    
+}
+
+.create-account{
+    width: 340px;
+    height: 485px;
+    position: relative;
+    top: 20px;
+    left: 190px;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    border: 3px solid rgb(65, 65, 63);
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+.create{
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    background: linear-gradient(#1feec1 19%, #109b94 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    top: -30px;
+    text-transform: uppercase;
+}
+
+.create-account-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.create-account-form .create-input-group{
+    position: relative;
+    top: -20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.create-account-form .create-input-group input{
+    margin-top: 12px;
+    padding: 10px;
+    background: transparent;
+    border: 2px solid rgb(31, 30, 30);
+    border-radius: 6px;
+}
+
+
+.create-account-form .create-input-group button{
+    position: relative;
+    margin-top: 20px;
+    top: 0px;
+    left: 55px;
+    width: 60%;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: #1eb99a;
+    border: 1px solid rgb(34, 34, 34);
+    border-radius: 8px;
+    cursor: pointer;
+}
+.create-account-form .create-input-group button:hover{
+    background-color: #1a7e6a;
+
+}
+
+
+.register-login{
+    position: relative;
+    top: 15px;
+    left: 50px;
+    font-size: 16px;
+}
+
+.register-login-btn{
+    position: relative;
+    top: 15px;
+    left: 36px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    background-color: #1eb99a;
+    border: 1px solid rgb(34, 34, 34);
+    border-radius: 6px;
+    padding: 8px 25px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.register-login-btn:hover{
+    background-color: #1a7e6a;
+
+}
+
+
+}
+@media(max-width:500px) and (max-height:597px){
+
+
+.half-register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(#1feec1 19%, #109b94 120%);
+    width: 155vw;
+    height: 35vh;
+    position: absolute;
+    top: 0px;
+    overflow: hidden;
+    left: 0px;
+}
+
+.logo-register{
+    position: relative;
+    top: 5px;
+    width: 330px;
+    height: 200px;
+    left: -240px;
+}
+
+.sta-register{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    top: -160px;
+    left: 110px;
+}
+
+.monica-register{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    top: -160px;
+    left: 110px;
+    
+}
+
+.create-account{
+    width: 430px;
+    height: 465px;
+    position: relative;
+    top: 220px;
+    left: 150px;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    border: 3px solid rgb(65, 65, 63);
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+.create{
+    position: relative;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    background: linear-gradient(#1feec1 19%, #109b94 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    top: -30px;
+    text-transform: uppercase;
+}
+
+.create-account-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.create-account-form .create-input-group{
+    position: relative;
+    top: -20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.create-account-form .create-input-group input{
+    margin-top: 12px;
+    padding: 10px;
+    background: transparent;
+    border: 2px solid rgb(31, 30, 30);
+    border-radius: 6px;
+}
+
+
+.create-account-form .create-input-group button{
+    position: relative;
+    margin-top: 20px;
+    top: 0px;
+    left: 55px;
+    width: 65%;
+    height: 45px;
+    font-size: 21px;
+    font-weight: 600;
+    color: white;
+    background-color: #1eb99a;
+    border: 1px solid rgb(34, 34, 34);
+    border-radius: 8px;
+    cursor: pointer;
+}
+.create-account-form .create-input-group button:hover{
+    background-color: #1a7e6a;
+
+}
+
+
+.register-login{
+    position: relative;
+    top: 30px;
+    left: 72px;
+    font-size: 18px;
+}
+
+.register-login-btn{
+    position: relative;
+    top: 15px;
+    left: 43px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: #1eb99a;
+    border: 1px solid rgb(34, 34, 34);
+    border-radius: 6px;
+    padding: 8px 25px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.register-login-btn:hover{
+    background-color: #1a7e6a;
+
+}
+
+
+}
+@media(max-width:250px) and (max-height:597px){
+
+
+.half-register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(#1feec1 19%, #109b94 120%);
+    width: 245vw;
+    height: 35vh;
+    position: absolute;
+    top: 0px;
+    overflow: hidden;
+    left: 0px;
+}
+
+.logo-register{
+    position: relative;
+    top: 5px;
+    width: 330px;
+    height: 200px;
+    left: -170px;
+}
+
+.sta-register{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+    top: -140px;
+    left: 110px;
+}
+
+.monica-register{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    top: -140px;
+    left: 110px;
+    
+}
+
+.create-account{
+    width: 430px;
+    height: 465px;
+    position: relative;
+    top: 250px;
+    left: 100px;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    border: 3px solid rgb(65, 65, 63);
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+.create{
+    position: relative;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    background: linear-gradient(#1feec1 19%, #109b94 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    top: -30px;
+    text-transform: uppercase;
+}
+
+.create-account-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.create-account-form .create-input-group{
+    position: relative;
+    top: -20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.create-account-form .create-input-group input{
+    margin-top: 12px;
+    padding: 10px;
+    background: transparent;
+    border: 2px solid rgb(31, 30, 30);
+    border-radius: 6px;
+}
+
+
+.create-account-form .create-input-group button{
+    position: relative;
+    margin-top: 20px;
+    top: 0px;
+    left: 55px;
+    width: 65%;
+    height: 45px;
+    font-size: 21px;
+    font-weight: 600;
+    color: white;
+    background-color: #1eb99a;
+    border: 1px solid rgb(34, 34, 34);
+    border-radius: 8px;
+    cursor: pointer;
+}
+.create-account-form .create-input-group button:hover{
+    background-color: #1a7e6a;
+
+}
+
+
+.register-login{
+    position: relative;
+    top: 30px;
+    left: 72px;
+    font-size: 18px;
+}
+
+.register-login-btn{
+    position: relative;
+    top: 15px;
+    left: 43px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: #1eb99a;
+    border: 1px solid rgb(34, 34, 34);
+    border-radius: 6px;
+    padding: 8px 25px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.register-login-btn:hover{
+    background-color: #1a7e6a;
+
+}
+
+
+}

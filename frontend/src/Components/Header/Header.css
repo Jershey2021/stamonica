@@ -1,0 +1,73 @@
+
+.header {
+  height: 70px;
+  background-color: #f7f7f759;
+}
+
+.hnav a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.headerNavBar {
+  display: flex;
+  gap: 80px;
+  font-size: 23px;
+  font-weight: 400;
+  top: -5px;
+}
+
+.headerTitleButton {
+  --border-right: 8px;
+  --text-stroke-color: rgb(7, 7, 7);
+  --animation-color: #1e645d;
+  --fs-size: 2em;
+  letter-spacing: 3px;
+  text-decoration: none;
+  font-size: var(--fs-size);
+  font-family: "Arial";
+  position: relative;
+  text-transform: uppercase;
+  color: black;
+  -webkit-text-fill-color: 2px var(--text-fill-color);
+  font-weight: 600;
+  background: transparent;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+
+.headerHoverText {
+  position: absolute;
+  box-sizing: border-box;
+  content: attr(data-text);
+  color: var(--animation-color);
+  width: 0%;
+  inset: 0;
+  border-right: var(--border-right) solid var(--animation-color);
+  overflow: hidden;
+  transition: 0.5s;
+  -webkit-text-stroke: 1px var(--animation-color);
+}
+
+.headerTitleButton:hover .headerHoverText {
+  width: 100%;
+  filter: drop-shadow(0 0 23px var(--animation-color));
+}
+
+
+.lblMonica{
+    position: relative;
+    left: 20px;
+    top: -5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5 px;
+}
+
+.barangayLogo{
+    position: absolute;
+    top: 0px;
+    width: 100px;
+    height: 80px;
+}

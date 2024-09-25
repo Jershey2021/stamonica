@@ -1,0 +1,123 @@
+#userHomepage {
+    overflow: hidden;
+    background-color: aliceblue;
+    width: 100vw;
+    height: 100vh;
+    position: relative; 
+}
+
+.userHomepageHelloUser {
+    position: relative;
+    top: 70px;
+    left: 40px;
+    font-size: 40px;
+}
+
+/* Header */
+
+.userHomepageHeader {
+    height: 70px;
+    background-color: #f7f7f759;
+}
+
+.userHomepage nav a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.userHomepageHeaderNavBar {
+    display: flex;
+    gap: 80px;
+    font-size: 23px;
+    font-weight: 400;
+    top: -5px;
+}
+
+.userHomepageHeaderTitleButton {
+    --border-right: 8px;
+    --text-stroke-color: rgb(7, 7, 7);
+    --animation-color: #1e645d;
+    --fs-size: 2em;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: var(--fs-size);
+    font-family: "Arial";
+    position: relative;
+    text-transform: uppercase;
+    color: black;
+    -webkit-text-fill-color: 1px var(--text-fill-color);
+    font-weight: 600;
+    background: transparent;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+}
+
+.userHomepageHeaderHoverText {
+    position: absolute;
+    box-sizing: border-box;
+    content: attr(data-text);
+    color: var(--animation-color);
+    width: 0%;
+    inset: 0;
+    border-right: var(--border-right) solid var(--animation-color);
+    overflow: hidden;
+    transition: 0.5s;
+    -webkit-text-stroke: 1px var(--animation-color);
+}
+
+.userHomepageHeaderTitleButton:hover .userHomepageHeaderHoverText {
+    width: 100%;
+    filter: drop-shadow(0 0 23px var(--animation-color));
+}
+
+/* Total Numbers */
+
+.userHomepageSummary {
+    position: absolute;
+    top: 180px; 
+    left: 52%;
+    transform: translateX(-50%); 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, auto);
+    column-gap: 20px;
+    row-gap: 20px;
+    width: 80%; 
+    max-width: 1200px; 
+}
+
+.userHomepageSummaryItem {
+    background: linear-gradient(to left, #e0e0e0, #ffffff);
+    color: #333;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 120px; 
+    width: 200px; 
+}
+
+.userHomepageTextContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.userHomepageTitle, .userHomepageNumber {
+    margin: 0;
+}
+
+.userHomepageSummaryItem .userHomepageTitle {
+    padding-top: 10px;
+}
+
+.userHomepageSummaryItem .userHomepageNumber {
+    padding-top: 10px;
+}
